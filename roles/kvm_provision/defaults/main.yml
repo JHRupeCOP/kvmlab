@@ -4,9 +4,9 @@ base_image_url: https://cloud.centos.org/centos/8-stream/x86_64/images/{{ base_i
 base_image_sha: 8717251f8e4d2fe3e5032799caae89358c1ba68d65a16b5128a59ec6003aac1c
 libvirt_pool_dir: "/var/lib/libvirt/images"
 vm_name: centos-8-srv
-vm_vcpus: 2
-vm_ram_mb: 2048
+vm_vcpus: 4
+vm_ram_mb: 8192
 vm_net: default
-vm_root_pass: test123
+vm_root_pass: PassW0rd!
 cleanup_tmp: no
 ssh_key: /root/.ssh/id_rsa.pub
